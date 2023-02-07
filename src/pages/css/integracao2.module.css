@@ -1,3 +1,10 @@
+#integracao2 {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 .red {
     color: #f30;
 }
