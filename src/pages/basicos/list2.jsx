@@ -1,11 +1,17 @@
-export default function list2() {
-	const itens = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function gerarLista(tamanho = 10) {
+	const lista = []
 
+	for (let index = 1; index <= tamanho; index++) {
+		lista.push(<span key={index}>{index}, </span>)
+	}
+	return lista
+}
+
+export default function list2() {
 	return (
-		<div>
-			{itens.map((item) => (
-				<span key={item}>{item}, </span>
-			))}
-		</div>
+		<>
+			<div>{gerarLista(20)}</div>
+			<div>{gerarLista(2)}</div>
+		</>
 	)
 }
