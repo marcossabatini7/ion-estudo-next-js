@@ -29,7 +29,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/pages/basicos/jsx4.ssx"
   ],
   "exclude": [
     "node_modules"
